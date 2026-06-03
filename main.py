@@ -1,6 +1,3 @@
-def main():
-    print("Hello from market-analytical!")
-
+from src.logger import log_note
 
 if __name__ == "__main__":
-    main()

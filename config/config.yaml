@@ -1,0 +1,12 @@
+project_meta:
+  name: "Market Analysis"
+  version: "1.0.0"
+  author: "Aman Kumar Bhamboo"
+
+data_ingestion:
+  artifacts_root: "artifacts"
+  raw_data_folder: "Data"
+  clean_columns: true
+  strip_spaces: true
+  # Sirf file ka naam yahan likhein:
+  input_file_name: "market_data.csv"
